@@ -16,7 +16,6 @@ export const HomeLayout = ({ children }: HomeLayoutProps) => {
 					<main className='flex-1 overflow-y-auto'>{children}</main>
 				</div>
 			</div>
-			{children}
 		</SidebarProvider>
 	);
 };
