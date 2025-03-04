@@ -14,6 +14,7 @@ const Page = async ({ searchParams }: PageProps) => {
 
 	return (
 		<HydrateClient>
+			<h1>Test</h1>
 			<HomeView categoryId={categoryId} />
 		</HydrateClient>
 	);

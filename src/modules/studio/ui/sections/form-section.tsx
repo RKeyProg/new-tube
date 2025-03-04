@@ -241,6 +241,7 @@ const FormSectionSuspense = ({ videoId }: FormSectionProps) => {
 								type='submit'
 								disabled={update.isPending || !form.formState.isDirty}
 							>
+								<SaveIcon className='size-4 mr-2' />
 								Save
 							</Button>
 							<DropdownMenu>
